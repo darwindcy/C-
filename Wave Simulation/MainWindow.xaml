@@ -1,0 +1,50 @@
+﻿<Window x:Class="WpfApp1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:xctk="http://schemas/xceed.com/wpf/xaml/toolkit"
+        xmlns:local="clr-namespace:WpfApp1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button x:Name="btnRun" Content="Button" HorizontalAlignment="Left" Height="39" Margin="589,283,0,0" VerticalAlignment="Top" Width="146" Click="Button_Click"/>
+
+        <Image x:Name="imgTank" HorizontalAlignment="Left" Height="256" Margin="114,78,0,0" VerticalAlignment="Top" Width="256" MouseUp="ImgTank_MouseUp" MaxWidth ="256" 
+                   MaxHeight ="256" MinWidth="256" MinHeight="256" Source = "C:/Users/Darwin/Pictures/background.jpg" MouseDown="ImgTank_MouseDown" MouseMove="ImgTank_MouseMove" />
+
+
+        <Button x:Name="btnColor" Content="Choose Different Color" HorizontalAlignment="Left" Margin="589,231,0,0" VerticalAlignment="Top" Width="138" Click="BtnColor_Click"/>
+        <Menu x:Name="mnuMain" HorizontalAlignment="Left" Height="25" VerticalAlignment="Top" Width="127">
+            <MenuItem x:Name="mnuFile" Header="File">
+                <Button x:Name="btnExit" Content="Exit" Click="BtnExit_Click"/>
+            </MenuItem>
+            <MenuItem x:Name="btnEdit" Header="Edit">
+                <MenuItem x:Name="mnuObstacle" Header="Add Obstacle">
+                    <ListBoxItem x:Name="obsLine" Content="Line" MouseUp="ObsLine_MouseUp"/>
+                    <ListBoxItem x:Name="obsRect" Content="Rectangle" MouseUp="ObsRect_MouseUp"/>
+                    <ListBoxItem x:Name="obsPoint" Content="Point" MouseUp="ObsPoint_MouseUp"/>
+                </MenuItem>
+                <MenuItem x:Name="mnuCreateWave" Header="Create Wave" Click="MnuCreateWave_Click">
+
+                </MenuItem>
+                <MenuItem x:Name="mnuSIteration" Header="Change Iteration">
+                    <ListBoxItem x:Name= "iter_40" Content= "40 iterations" MouseUp="Iter_40_MouseUp"/>
+                    <ListBoxItem x:Name= "iter_80" Content= "80 iterations" MouseUp="Iter_80_MouseUp" />
+                    <ListBoxItem x:Name= "iter_120" Content= "120 iterations" MouseUp="Iter_120_MouseUp"/>
+
+                </MenuItem>
+                <MenuItem x:Name="mnuWaveType" Header="Change Wave type">
+                    <ListBoxItem x:Name= "waveSin" Content= "Sin Wave" MouseUp="WaveSin_MouseUp"/>
+                    <ListBoxItem x:Name= "waveCos" Content= "Cos Wave" MouseUp="WaveCos_MouseUp"/>                    
+                </MenuItem>
+
+            </MenuItem>
+            <MenuItem x:Name="mnuHelp" Header="Help">
+                <Button x:Name="btnAbout" Content="About" Click="BtnAbout_Click"/>
+            </MenuItem>
+        </Menu>
+        <Canvas x:Name="canImage" HorizontalAlignment="Left" Height="256" Margin="114,78,0,0" VerticalAlignment="Top" Width="256"/>
+        <TextBlock x:Name="txtAbout" HorizontalAlignment="Left" Height="96" Margin="189,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="212" FontSize="16" Background="#FFE5F0EF" Visibility="Hidden"/>
+    </Grid>
+</Window>

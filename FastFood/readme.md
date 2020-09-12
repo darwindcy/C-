@@ -1,1 +1,1 @@
-Game simlar to caverunner in a tinyclr run device where player controlls a mouth that eats food. 
+Game simlar to caverunner in a tinyclr run device where player controls a mouth that eats food. 

@@ -1,0 +1,20 @@
+﻿<Window x:Class="server.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:server"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+
+        <TextBox x:Name="txtData" HorizontalAlignment="Left" Height="21" Margin="196,59,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="343"/>
+        <Button x:Name="btnStart" Content="Start" HorizontalAlignment="Left" Margin="477,245,0,0" VerticalAlignment="Top" Width="75" Height="22" Click="btnStart_Click"/>
+        <ScrollViewer Height="120" Width="343" Margin="196,105,253,200">
+        <TextBlock x:Name="txtScreen" HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top"/>
+        </ScrollViewer>
+        <Button x:Name="btnSend" Content="Send" HorizontalAlignment="Left" Height="25" Margin="183,245,0,0" VerticalAlignment="Top" Width="52" Click="btnSend_Click" RenderTransformOrigin="-0.16,-0.293"/>
+        <ListBox x:Name="activeConnections" HorizontalAlignment="Left" Height="113" Margin="563,115,0,0" VerticalAlignment="Top" Width="102"/>
+
+    </Grid>
+</Window>

@@ -1,1 +1,1 @@
-WPF app that displays fractals and zooms in if needed
+WPF app that displays fractals using multiple threads

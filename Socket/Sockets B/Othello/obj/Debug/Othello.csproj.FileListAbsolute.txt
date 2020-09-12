@@ -1,0 +1,14 @@
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\bin\Debug\Othello.exe.config
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\bin\Debug\Othello.exe
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\bin\Debug\Othello.pdb
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.csprojAssemblyReference.cache
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\MainWindow.g.cs
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\App.g.cs
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello_MarkupCompile.cache
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello_MarkupCompile.lref
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\MainWindow.baml
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.g.resources
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.Properties.Resources.resources
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.csproj.GenerateResource.cache
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.exe
+D:\College Files\Semester 7\CS 376\Project 5\Project 5B\Othello\obj\Debug\Othello.pdb

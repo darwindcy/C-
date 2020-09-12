@@ -1,0 +1,31 @@
+﻿<Window x:Class="Otrio.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Otrio"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="570.308" Width="913.368">
+    <Grid>
+        <Image x:Name="imgBoard" HorizontalAlignment="Left" Height="300" Margin="193,122,0,0" VerticalAlignment="Top" Width="300" MouseDown="imgBoard_MouseDown"/>
+        <Button x:Name="btnBlueSmall" Content="" HorizontalAlignment="Left" Height="100" Margin="93,122,0,0" VerticalAlignment="Top" Width="100" Click="btnBlueSmall_Click"/>
+
+        <Button x:Name="btnBlueLarge" Content="" HorizontalAlignment="Left" Height="100" Margin="93,322,0,0" VerticalAlignment="Top" Width="100" Click="btnBlueLarge_Click"/>
+        <Button x:Name="btnBlueMedium" Content="" HorizontalAlignment="Left" Height="100" Margin="93,222,0,0" VerticalAlignment="Top" Width="100" Click="btnBlueMedium_Click"/>
+        <Button x:Name="btnRedLarge" Content="" HorizontalAlignment="Left" Height="100" Margin="493,322,0,0" VerticalAlignment="Top" Width="100" Click="btnRedLarge_Click" DragOver="btnRedLarge_DragOver" Drop="btnRedLarge_Drop"/>
+        <Button x:Name="btnRedMedium" Content="" HorizontalAlignment="Left" Height="100" Margin="493,222,0,0" VerticalAlignment="Top" Width="100" Click="btnRedMedium_Click"/>
+        <Button x:Name="btnRedSmall" Content="" HorizontalAlignment="Left" Height="100" Margin="493,122,0,0" VerticalAlignment="Top" Width="100" Click="btnRedSmall_Click"/>
+        <Button x:Name="btnSinglePlayer" Content="Single Player" HorizontalAlignment="Left" Height="43" Margin="173,274,0,0" VerticalAlignment="Top" Width="142" FontSize="16" Click="btnSinglePlayer_Click"/>
+        <Button x:Name="btnMultiPlayer" Content="Two Players" HorizontalAlignment="Left" Height="43" Margin="382,274,0,0" VerticalAlignment="Top" Width="142" FontSize="16" Click="btnMultiPlayer_Click"/>
+        <Label x:Name="lblMain" Content="Otrio" HorizontalAlignment="Left" Height="134" Margin="93,106,0,0" VerticalAlignment="Top" Width="500" FontSize="44" FontWeight="Bold"/>
+        <Image x:Name="imgBackBoard" HorizontalAlignment="Left" Height="300" Margin="193,122,0,0" VerticalAlignment="Top" Width="300" MouseDown="imgBoard_MouseDown"/>
+        <Button x:Name="btnQuadPlayer" Content="Four Players" HorizontalAlignment="Left" Height="43" Margin="282,340,0,0" VerticalAlignment="Top" Width="142" FontSize="16" Click="btnQuadPlayer_Click"/>
+        <Button x:Name="btnGreenLarge" Content="" HorizontalAlignment="Left" Height="100" Margin="193,22,0,0" VerticalAlignment="Top" Width="100" Click="btnGreenLarge_Click"/>
+        <Button x:Name="btnGreenMedium" Content="" HorizontalAlignment="Left" Height="100" Margin="293,22,0,0" VerticalAlignment="Top" Width="100" Click="btnGreenMedium_Click"/>
+        <Button x:Name="btnGreenSmall" Content="" HorizontalAlignment="Left" Height="100" Margin="393,22,0,0" VerticalAlignment="Top" Width="100" Click="btnGreenSmall_Click"/>
+        <Button x:Name="btnYellowLarge" Content="" HorizontalAlignment="Left" Height="100" Margin="193,422,0,0" VerticalAlignment="Top" Width="100" Click="btnYellowLarge_Click"/>
+        <Button x:Name="btnYellowSmall" Content="" HorizontalAlignment="Left" Height="100" Margin="393,422,0,0" VerticalAlignment="Top" Width="100" Click="btnYellowSmall_Click"/>
+        <Button x:Name="btnYellowMedium" Content="" HorizontalAlignment="Left" Height="100" Margin="293,422,0,0" VerticalAlignment="Top" Width="100" Click="btnYellowMedium_Click"/>
+
+    </Grid>
+</Window>
